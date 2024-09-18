@@ -12,7 +12,9 @@ Public Class frmShowPartTimeEmployeeInfo
 
     End Sub
     Private Sub frmPartTimeEmployeeInfo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         CtrlPartTimeEmployee1.LoadEmployeeInfo(_id)
+
     End Sub
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnCLose.Click
